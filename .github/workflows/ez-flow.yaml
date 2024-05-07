@@ -36,6 +36,7 @@ jobs:
       run: |
         go vet .
         golint .
+
     
     # Run testing on the code
     - name: Run testing
