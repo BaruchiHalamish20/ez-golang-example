@@ -58,6 +58,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: bhalamish20/gosimple
+        tags: latest, ${{ github.sha }}
         tag_with_ref: true
         push: true
 
