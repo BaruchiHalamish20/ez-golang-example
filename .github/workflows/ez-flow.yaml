@@ -61,4 +61,5 @@ jobs:
         tags: latest, ${{ github.sha }}
         tag_with_ref: true
         push: true
+        github-token: ${{ secrets.DOCKERHUB_ACCESS_BY_GITHUB }}
 
